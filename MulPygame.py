@@ -90,7 +90,7 @@ class Main:
             #added allowed_keys just to make it harder for the user to make mistakes by putting letters as an answer
             if event.type == pygame.KEYDOWN and event.key in allowed_keys:
                 self.user_text += event.unicode
-                print(user_text)
+                
 
 
 
